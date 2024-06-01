@@ -1,13 +1,16 @@
-Create a new Virtual Environment : 
-virtualenv my_env || python -m venv myenv
-
-Activate a Virtual Environment on Windows : 
- cd <envname>
- Scripts\activate
+## Create a new Virtual Environment : 
+virtualenv my_env
+# or
+python -m venv my_env
 
 
-Installed Packages names:
+## Activate a Virtual Environment on Windows : 
+cd my_env
+Scripts\activate
+
+
+## Saving Installed Packages 
 pip freeze > requirements.txt
 
-How to install packages from requirements: 
+## Installing Packages from Requirements File
 pip install -r requirements. txt
