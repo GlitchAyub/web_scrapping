@@ -7,6 +7,8 @@ soup =BeautifulSoup(req.content, "html.parser")
 
 res = soup.title
 
+print('Web Scrapping')
+
 # prints all the element
 # print(soup.prettify())
 
