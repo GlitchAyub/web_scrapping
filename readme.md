@@ -14,3 +14,5 @@ pip freeze > requirements.txt
 
 ## Installing Packages from Requirements File
 pip install -r requirements. txt
+
+Just used Beautifulsoup for testing, will make project later
